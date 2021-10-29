@@ -39,8 +39,8 @@ gamma = 1.781
 t, q, Pc, Pr = read_file('5')
 for i in range(len(t)):
 	q[i] = q[i]*10**-6
-	Pc[i] = Pc[i]*10**6
-	Pr[i] = Pr[i]*10**6
+	Pc[i] = Pc[i]*10**5
+	Pr[i] = Pr[i]*10**5
 
 deltaT=[]
 q0, t_qmax = find_max(q)
